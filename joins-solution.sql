@@ -39,3 +39,4 @@ SELECT COUNT("products".description) FROM "products";
 SELECT SUM("warehouse_product".on_hand) FROM "warehouse_product"
 JOIN "products" ON "warehouse_product".product_id = "products".id
 WHERE "products".description = 'diet pepsi';
+
